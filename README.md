@@ -11,6 +11,15 @@
 >
 > The repository provides a standalone, runnable implementation of the public software architecture, interfaces, demonstration search policies, evaluator integration, and execution pipeline. It should not be interpreted as the complete implementation used in the unpublished research.
 
+> [!IMPORTANT]
+> **公开版本**
+>
+> 本仓库是 RLPD 的公开版本。在相关研究尚未发表期间，RLPD 的主要研究算法及其关键实现细节不在本仓库中公开。
+>
+> 调优后的实验参数、真实分子靶点、候选多肽、Docking 输出和原始 Benchmark 数据同样保持私有。
+>
+> 本仓库提供可以独立安装和运行的公开软件架构、接口、演示性搜索策略、评价器集成和执行流程，但不应被视为未发表研究所使用完整实现的公开副本。
+
 ## Overview
 
 Peptide sequence spaces grow exponentially. With a 20-symbol alphabet, lengths 3, 4, and 5 contain 8,000, 160,000, and 3,200,000 sequences. Molecular evaluation is expensive, so evaluating every sequence is often impractical. RLPD separates search decisions from evaluation and runs a reproducible search under an explicit evaluation budget.
