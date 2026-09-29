@@ -1,6 +1,6 @@
 # RLPD
 
-**Budget-aware peptide sequence search for expensive black-box molecular evaluation.**
+**Reinforcement Learning-Inspired Peptide Sequence Search (Privacy-Preserving Public Demo)**
 
 > [!IMPORTANT]
 > **Public Release**
