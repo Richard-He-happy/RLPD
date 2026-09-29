@@ -168,6 +168,8 @@ No open-source license is currently granted. All rights are reserved.
 
 # 中文版本
 
+**RLPD：基于强化学习启发的多肽序列搜索（隐私保护公开演示版）。**
+
 > [!IMPORTANT]
 > **公开版本**
 >
