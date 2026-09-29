@@ -103,7 +103,7 @@ Load configuration, restore or initialize state, propose candidates, perform cac
 
 Across the current internal benchmark set, at 20% of the exhaustive evaluation budget, corresponding to an 80% reduction in evaluations, RLPD achieved a 92.98% recall of candidates ranked in the top 10% by exhaustive evaluation.
 
-The 92.98% value is the current aggregate benchmark result.
+The 92.98% value is the current aggregate result across multiple benchmark runs.
 
 ![Research benchmark](docs/assets/top10_recall_30runs.png)
 
@@ -158,7 +158,7 @@ The public code does not describe how the private research components work.
 
 ## Status
 
-Research manuscript: in preparation. Public repository: active public release.
+Research manuscript: in preparation. Public repository: actively maintained.
 
 ## Usage and Rights
 
