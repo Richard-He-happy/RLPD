@@ -1,0 +1,9 @@
+length: 4
+alphabet: ACDE
+seed: 11
+budget: 12
+batch_size: 3
+policy: random
+work_root: ./work/toy
+evaluator:
+  kind: toy

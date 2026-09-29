@@ -1,0 +1,13 @@
+length: 4
+alphabet: ACDE
+seed: 11
+budget: 8
+batch_size: 2
+policy: ucb
+work_root: ./work/autodock
+evaluator:
+  kind: autodock_gpu
+  command: [autodock_gpu]
+  receptor_fld: /path/to/Target_A.maps.fld
+  ligand_dir: /path/to/prepared_ligands
+  timeout: 300

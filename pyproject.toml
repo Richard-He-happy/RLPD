@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlpd"
+version = "0.1.0"
+description = "Public peptide search and evaluation pipeline"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0"]
+
+[project.scripts]
+rlpd = "rlpd.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rlpd*"]
